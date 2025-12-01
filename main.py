@@ -1,6 +1,4 @@
-def main():
-    print("Hello from cashlog!")
-
+from cashlog.cli.main import main_cli
 
 if __name__ == "__main__":
-    main()
+    main_cli()
